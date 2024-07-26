@@ -9,7 +9,7 @@ public class FollowFrog : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        frog = GameObject.Find("frog");
+        frog = GameObject.Find("frog_collider");
     }
 
     // Update is called once per frame
